@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a056bfd3-fc0d-486f-90a6-2b223f0e32ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1df83wDeG0YNxcHpCah8u4b44nG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mongo_db" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\harun\express_inven\views\category" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a056bfd3-fc0d-486f-90a6-2b223f0e32ca" name="Default Changelist" comment="" />
+      <created>1592804591791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592804591791</updated>
+      <workItem from="1592804593366" duration="3355000" />
+      <workItem from="1592833601237" duration="2653000" />
+      <workItem from="1592880582505" duration="5376000" />
+      <workItem from="1592904658718" duration="2860000" />
+      <workItem from="1592930975714" duration="2452000" />
+      <workItem from="1592960466156" duration="6389000" />
+      <workItem from="1592986784166" duration="601000" />
+      <workItem from="1593068302612" duration="725000" />
+      <workItem from="1593513960298" duration="9068000" />
+      <workItem from="1593569647622" duration="365000" />
+      <workItem from="1593570149541" duration="4021000" />
+      <workItem from="1593578184704" duration="87000" />
+      <workItem from="1593580146257" duration="1470000" />
+      <workItem from="1593594735248" duration="4730000" />
+      <workItem from="1593645958538" duration="3676000" />
+      <workItem from="1593916789185" duration="41000" />
+      <workItem from="1594100630667" duration="8764000" />
+      <workItem from="1594133173828" duration="1828000" />
+      <workItem from="1594168076328" duration="3118000" />
+      <workItem from="1594192259257" duration="747000" />
+      <workItem from="1594204685566" duration="7649000" />
+      <workItem from="1594270859530" duration="1246000" />
+      <workItem from="1594347494185" duration="5712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1594288004439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594288004439" />
+    <state x="275" y="23" key="scopes" timestamp="1592931957826">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1592931957826" />
+  </component>
+</project>
