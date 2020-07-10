@@ -1,5 +1,3 @@
-const mongoose = require('mongoose');
-
 
 // Setting up the database connection
 const knex = require('knex')({
@@ -12,38 +10,50 @@ const knex = require('knex')({
         charset  : 'utf8'
     }
 });
+
+/*knex.schema.createTable('contact_us', function(table) {
+    table.increments('id').primary();
+    table.string('name');
+    table.string('message');
+}).then(function() {
+        // Table creation succeeded
+        console.log('Table creation succeeded');
+    })
+    .catch(function(e) {
+        // Table creation did not succeed.
+        console.log(e);
+    });*/
+
+
 const bookshelf = require('bookshelf')(knex);
 
 // Defining models
-const User = bookshelf.model('User', {
-    tableName: 'users'
+const ContactUs = bookshelf.model('User', {
+    tableName: 'contact_us'
 });
+async function save_city() {
 
+    try {
+
+        let val = await ContactUs.forge({ 'name': 'Kyiv', 'message': '2884000'}).save();
+        console.log(val.toJSON());
+    } catch (e) {
+
+        console.log(`Failed to save data: ${e}`);
+    } finally {
+
+        knex.destroy();
+    }
+}
+
+//save_city();
+/*
 new User({id: 2}).fetch().then((user) => {
     console.log(user.toJSON())
 }).catch((error) => {
     console.error(error)
-})
+})*/
 
 
-const contactUsSchema = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    mail: {
-        type: String,
-        required: true,
-        trim: true
-    },
-    message: {
-        type: String,
-        required: true,
-        trim: true
-    }
-});
-
-const ContactUs = mongoose.model('ContactUs', contactUsSchema);
 
 module.exports = ContactUs;
