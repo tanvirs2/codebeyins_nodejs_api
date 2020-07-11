@@ -21,7 +21,7 @@ exports.getContactUsDataById = async (req, res) => {
 exports.getContactUsData = async (req, res) => {
 
     try {
-        const contactUs = await ContactUs.find();
+        const contactUs = await ContactUs.find().sort({createdAt: 1});
 
         res.status(200).json({
             status: 'success',

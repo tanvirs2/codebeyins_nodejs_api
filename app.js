@@ -24,13 +24,18 @@ app.use(corsSupport);
 
 app.use('/api/v1/contact-us', contactUsRoutes);
 
-
+let modeEnv = "serve";
 
 mongoose.connect('mongodb://localhost:27017/code_beyins', {useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=>{
-        app.listen(8081, ()=>{
-            console.log('8081: code B server restart...');
-        })
+        if (modeEnv === "local") {
+            app.listen(8081, ()=>{
+                console.log('8081: code B server restart...');
+            });
+        } else {
+            app.listen();
+        }
+
     })
     .catch((e)=>{
         console.log(e);
