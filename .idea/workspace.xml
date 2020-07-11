@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a056bfd3-fc0d-486f-90a6-2b223f0e32ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/ContactUsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ContactUsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ContactUs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1594270859530" duration="1246000" />
       <workItem from="1594347494185" duration="5712000" />
       <workItem from="1594398123611" duration="103000" />
-      <workItem from="1594460651425" duration="2450000" />
+      <workItem from="1594460651425" duration="3008000" />
     </task>
     <servers />
   </component>
